@@ -1,11 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import static jdk.nashorn.internal.ir.debug.ObjectSizeCalculator.getObjectSize;
 
 public class Basket {
-    List<Bagel> basketItem = new ArrayList<Bagel>();
-    int Capacity;
+    private List<Bagel> basketItem = new ArrayList<Bagel>();
+    private int Capacity;
 
     public Basket(int capacity) {
         Object[] basketItem = {};
@@ -19,14 +18,16 @@ public class Basket {
         return Capacity;
     }
     public void add(Bagel item) {
-        basketItem.add(item);
+        if (capChecker() == false && !basketItem.contains(item)) { basketItem.add(item); }
     }
 
     public List<Bagel> getBasketItem() {
         return basketItem;
     }
 
+
     public void remove(Bagel item) {
+        if (basketItem.contains(item) == false){ return; }
         int indexOfItem = basketItem.indexOf(item);
         basketItem.remove(indexOfItem);
     }

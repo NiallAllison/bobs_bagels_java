@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85c1ac96-8e55-4aac-939c-0418fc816955" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bagel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="85c1ac96-8e55-4aac-939c-0418fc816955" name="Changes" comment="First three tests complete and working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bagel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bagel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasketTest.java" afterDir="false" />
+    </list>
+    <list id="e9d117e6-2db6-43c3-8c92-03e8734546c7" name="Changes by kayceegu" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +28,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/Basket.java">
+      <ranges>
+        <range start1="3" end1="4" start2="3" end2="3" changelist="85c1ac96-8e55-4aac-939c-0418fc816955" />
+        <range start1="6" end1="8" start2="5" end2="7" changelist="85c1ac96-8e55-4aac-939c-0418fc816955" />
+        <range start1="20" end1="20" start2="19" end2="20" changelist="e9d117e6-2db6-43c3-8c92-03e8734546c7" />
+        <range start1="21" end1="22" start2="21" end2="22" changelist="85c1ac96-8e55-4aac-939c-0418fc816955" />
+        <range start1="28" end1="28" start2="28" end2="29" changelist="85c1ac96-8e55-4aac-939c-0418fc816955" />
+        <range start1="29" end1="29" start2="30" end2="31" changelist="85c1ac96-8e55-4aac-939c-0418fc816955" />
+        <range start1="33" end1="33" start2="35" end2="49" changelist="e9d117e6-2db6-43c3-8c92-03e8734546c7" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2G5JjqEv6VU9J49RPKUTdnWfQ88" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,26 +58,58 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BasketTest">
-    <configuration name="BasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BasketTest.Total">
+    <configuration name="BasketTest.Total" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bobs_bagels_java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BasketTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="Total" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasketTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasketTest.capChecker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bobs_bagels_java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BasketTest" />
-      <option name="METHOD_NAME" value="add" />
+      <option name="METHOD_NAME" value="capChecker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketTest.getPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bobs_bagels_java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasketTest" />
+      <option name="METHOD_NAME" value="getPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketTest.keepingMySanity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bobs_bagels_java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasketTest" />
+      <option name="METHOD_NAME" value="keepingMySanity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketTest.keepingMySanityV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bobs_bagels_java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasketTest" />
+      <option name="METHOD_NAME" value="keepingMySanityV2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,8 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BasketTest" />
-        <item itemvalue="JUnit.BasketTest.add" />
+        <item itemvalue="JUnit.BasketTest.Total" />
+        <item itemvalue="JUnit.BasketTest.getPrice" />
+        <item itemvalue="JUnit.BasketTest.keepingMySanityV2" />
+        <item itemvalue="JUnit.BasketTest.keepingMySanity" />
+        <item itemvalue="JUnit.BasketTest.capChecker" />
       </list>
     </recent_temporary>
   </component>
@@ -83,6 +134,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665672650963</updated>
     </task>
+    <task id="LOCAL-00001" summary="First three tests complete and working">
+      <created>1665676838378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665676838378</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +154,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First three tests complete and working" />
+    <option name="LAST_COMMIT_MESSAGE" value="First three tests complete and working" />
   </component>
 </project>
